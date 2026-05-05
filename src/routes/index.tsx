@@ -101,6 +101,11 @@ function Hero() {
                 <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
               </a>
             </Button>
+            <Button asChild size="lg" variant="ghost" className="rounded-full">
+              <a href="/Kavan-Williams-CV.pdf" download>
+                Download CV
+              </a>
+            </Button>
           </div>
           <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
             <span className="flex items-center gap-2"><Phone className="h-4 w-4" /> 073 620 1564</span>
