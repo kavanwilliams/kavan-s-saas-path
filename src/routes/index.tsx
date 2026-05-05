@@ -221,8 +221,8 @@ function Skills() {
 
 const ROLES = [
   {
-    title: "Customer Engagement Specialist (Bartender)",
-    org: "Hospitality",
+    title: "Customer Engagement Specialist",
+    org: "Hospitality Industry",
     period: "Mar 2024 – Sep 2025",
     points: [
       "Consistently increased revenue through upselling higher-margin products while maintaining strong customer satisfaction.",
