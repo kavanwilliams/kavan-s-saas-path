@@ -181,7 +181,7 @@ function Profile() {
 }
 
 function Skills() {
-  const sales = ["Customer engagement", "Persuasion & upselling", "Communication", "Conflict resolution", "Team coordination", "Adaptability"];
+  const sales = ["Customer engagement", "Persuasion & upselling", "Communication", "Conflict resolution", "Team coordination", "Adaptability", "Stakeholder communication", "Coordination & organisation", "Problem solving", "Process improvement"];
   const technical = [
     { name: "HubSpot CRM", status: "Certified" },
     { name: "Salesforce CRM", status: "Learning" },
