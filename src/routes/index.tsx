@@ -87,10 +87,10 @@ function Hero() {
             Kavan Williams
           </h1>
           <p className="mt-4 text-xl font-medium text-foreground/80 md:text-2xl">
-            Aspiring SDR · SaaS Sales · CRM & Business Development
+            Sales Development Representative · SaaS & B2B Sales
           </p>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            Business graduate focused on building a career in SaaS sales and project-driven roles — bringing customer engagement, composure under pressure, and a competitive drive for results.
+            Sales-driven Business & Marketing graduate generating revenue through high-volume customer engagement, upselling and persuasive communication — now building SaaS pipeline skills with HubSpot and Salesforce.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild size="lg" className="rounded-full">
@@ -147,16 +147,22 @@ function Section({ id, eyebrow, title, children }: { id?: string; eyebrow: strin
 
 function Profile() {
   return (
-    <Section id="about" eyebrow="Profile" title="Customer-driven, results-focused, learning fast.">
+    <Section id="about" eyebrow="Profile" title="Sales-driven. Revenue-focused. Built for the pipeline.">
       <div className="grid gap-8 md:grid-cols-3">
-        <p className="md:col-span-2 text-lg leading-relaxed text-foreground/80">
-          Business and marketing graduate with experience in customer-facing and revenue-driven environments,
-          including hospitality and international brand activation campaigns. I combine a collaborative mindset
-          with a competitive drive — consistently aligning customer needs with business objectives to deliver results.
-          Currently developing technical and commercial skills in CRM systems and SaaS sales methodologies through
-          Salesforce training, HubSpot certification, and AI tools. I’m particularly interested in roles that
-          allow me to grow from sales into account management, project coordination, or operational roles over time.
-        </p>
+        <div className="md:col-span-2 space-y-4 text-lg leading-relaxed text-foreground/80">
+          <p>
+            Sales-driven Business & Marketing graduate with hands-on experience generating revenue through high-volume customer engagement, upselling, and persuasive communication.
+          </p>
+          <p>
+            Proven ability to influence purchasing decisions, handle objections, and maintain performance under pressure in fast-paced environments.
+          </p>
+          <p>
+            Currently building SaaS sales capabilities through HubSpot CRM certification, Salesforce training, and outbound sales methodologies.
+          </p>
+          <p>
+            Seeking to contribute to pipeline generation and revenue growth within a high-performance sales team — with a long-term path into account management, project coordination, or operational roles.
+          </p>
+        </div>
         <div className="grid gap-4">
           {[
             { icon: Target, label: "Career goal", value: "SDR in SaaS Sales" },
