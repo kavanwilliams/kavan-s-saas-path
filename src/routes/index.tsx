@@ -28,7 +28,9 @@ function Home() {
         <Education />
         <Certifications />
         <Leadership />
+        <PeopleSkills />
         <Growth />
+        <Hobbies />
         <Projects />
         <Contact />
       </main>
