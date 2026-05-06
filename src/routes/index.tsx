@@ -439,6 +439,55 @@ function Contact() {
   );
 }
 
+function PeopleSkills() {
+  const items = [
+    { icon: MessageCircle, title: "Active listening", body: "Hearing what customers actually need — not just what they say first." },
+    { icon: Users, title: "Relationship building", body: "Building rapport quickly across cultures, teams and customer types." },
+    { icon: Heart, title: "Empathy", body: "Understanding the human behind the conversation — even under pressure." },
+    { icon: Sparkles, title: "Persuasive communication", body: "Framing value clearly and guiding people toward confident decisions." },
+  ];
+  return (
+    <Section eyebrow="People skills" title="The human side of sales.">
+      <div className="grid gap-4 md:grid-cols-2">
+        {items.map((i) => (
+          <div key={i.title} className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
+            <div className="mb-4 grid h-10 w-10 place-items-center rounded-lg bg-primary/10 text-primary">
+              <i.icon className="h-5 w-5" />
+            </div>
+            <h3 className="font-semibold">{i.title}</h3>
+            <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{i.body}</p>
+          </div>
+        ))}
+      </div>
+    </Section>
+  );
+}
+
+function Hobbies() {
+  const items = [
+    { icon: Footprints, label: "Long-distance running" },
+    { icon: Mountain, label: "Hiking" },
+    { icon: BookOpen, label: "Reading" },
+    { icon: Lightbulb, label: "Learning new skills" },
+    { icon: Music, label: "Music production" },
+  ];
+  return (
+    <Section eyebrow="Hobbies" title="Outside of work.">
+      <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
+        {items.map((h) => (
+          <div key={h.label} className="flex items-center gap-3 rounded-2xl border border-border bg-card p-5 shadow-[var(--shadow-soft)]">
+            <div className="grid h-10 w-10 place-items-center rounded-lg bg-accent text-accent-foreground">
+              <h.icon className="h-5 w-5" />
+            </div>
+            <span className="font-medium">{h.label}</span>
+          </div>
+        ))}
+      </div>
+    </Section>
+  );
+}
+
+
 function Footer() {
   return (
     <footer className="border-t border-border/60 py-8">
