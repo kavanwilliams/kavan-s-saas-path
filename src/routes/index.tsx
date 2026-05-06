@@ -154,7 +154,8 @@ function Profile() {
           including hospitality and international brand activation campaigns. I combine a collaborative mindset
           with a competitive drive — consistently aligning customer needs with business objectives to deliver results.
           Currently developing technical and commercial skills in CRM systems and SaaS sales methodologies through
-          Salesforce training, HubSpot certification, and AI tools.
+          Salesforce training, HubSpot certification, and AI tools. I’m particularly interested in roles that
+          allow me to grow from sales into account management, project coordination, or operational roles over time.
         </p>
         <div className="grid gap-4">
           {[
