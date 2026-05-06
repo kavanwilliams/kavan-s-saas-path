@@ -183,6 +183,8 @@ function Skills() {
   const technical = [
     { name: "HubSpot CRM", status: "Certified" },
     { name: "Salesforce CRM", status: "Learning" },
+    { name: "Microsoft Excel", status: "Proficient" },
+    { name: "Microsoft Word", status: "Proficient" },
     { name: "AI Tools (Claude)", status: "Learning" },
     { name: "Inbound Sales", status: "In progress" },
   ];
