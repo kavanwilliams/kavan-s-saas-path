@@ -24,11 +24,14 @@ function Home() {
         <Hero />
         <Profile />
         <Skills />
+        <SalesCapabilities />
+        <SalesHighlights />
         <Experience />
         <Education />
         <Certifications />
         <Leadership />
         <PeopleSkills />
+        <Languages />
         <Growth />
         <Hobbies />
         <Projects />
