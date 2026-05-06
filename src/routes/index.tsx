@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Mail, Phone, Linkedin, MapPin, ArrowRight, CheckCircle2, Circle, Sparkles, Briefcase, GraduationCap, Award, Users, Target, Rocket } from "lucide-react";
+import { Mail, Phone, Linkedin, MapPin, ArrowRight, CheckCircle2, Circle, Sparkles, Briefcase, GraduationCap, Award, Users, Target, Rocket, Heart, MessageCircle, FileSpreadsheet, FileText, Music, BookOpen, Mountain, Footprints, Lightbulb } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import gradPhoto from "@/assets/kavan-graduation.jpg";
@@ -28,7 +28,9 @@ function Home() {
         <Education />
         <Certifications />
         <Leadership />
+        <PeopleSkills />
         <Growth />
+        <Hobbies />
         <Projects />
         <Contact />
       </main>
@@ -99,11 +101,6 @@ function Hero() {
             <Button asChild size="lg" variant="outline" className="rounded-full">
               <a href="https://www.linkedin.com/in/kavan-williams-8683a631a" target="_blank" rel="noreferrer">
                 <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
-              </a>
-            </Button>
-            <Button asChild size="lg" variant="ghost" className="rounded-full">
-              <a href="/Kavan-Williams-CV.pdf" download>
-                Download CV
               </a>
             </Button>
           </div>
@@ -188,6 +185,8 @@ function Skills() {
   const technical = [
     { name: "HubSpot CRM", status: "Certified" },
     { name: "Salesforce CRM", status: "Learning" },
+    { name: "Microsoft Excel", status: "Proficient" },
+    { name: "Microsoft Word", status: "Proficient" },
     { name: "AI Tools (Claude)", status: "Learning" },
     { name: "Inbound Sales", status: "In progress" },
   ];
@@ -439,6 +438,55 @@ function Contact() {
     </section>
   );
 }
+
+function PeopleSkills() {
+  const items = [
+    { icon: MessageCircle, title: "Active listening", body: "Hearing what customers actually need — not just what they say first." },
+    { icon: Users, title: "Relationship building", body: "Building rapport quickly across cultures, teams and customer types." },
+    { icon: Heart, title: "Empathy", body: "Understanding the human behind the conversation — even under pressure." },
+    { icon: Sparkles, title: "Persuasive communication", body: "Framing value clearly and guiding people toward confident decisions." },
+  ];
+  return (
+    <Section eyebrow="People skills" title="The human side of sales.">
+      <div className="grid gap-4 md:grid-cols-2">
+        {items.map((i) => (
+          <div key={i.title} className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
+            <div className="mb-4 grid h-10 w-10 place-items-center rounded-lg bg-primary/10 text-primary">
+              <i.icon className="h-5 w-5" />
+            </div>
+            <h3 className="font-semibold">{i.title}</h3>
+            <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{i.body}</p>
+          </div>
+        ))}
+      </div>
+    </Section>
+  );
+}
+
+function Hobbies() {
+  const items = [
+    { icon: Footprints, label: "Long-distance running" },
+    { icon: Mountain, label: "Hiking" },
+    { icon: BookOpen, label: "Reading" },
+    { icon: Lightbulb, label: "Learning new skills" },
+    { icon: Music, label: "Music production" },
+  ];
+  return (
+    <Section eyebrow="Hobbies" title="Outside of work.">
+      <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
+        {items.map((h) => (
+          <div key={h.label} className="flex items-center gap-3 rounded-2xl border border-border bg-card p-5 shadow-[var(--shadow-soft)]">
+            <div className="grid h-10 w-10 place-items-center rounded-lg bg-accent text-accent-foreground">
+              <h.icon className="h-5 w-5" />
+            </div>
+            <span className="font-medium">{h.label}</span>
+          </div>
+        ))}
+      </div>
+    </Section>
+  );
+}
+
 
 function Footer() {
   return (
