@@ -232,14 +232,15 @@ function Skills() {
 
 const ROLES = [
   {
-    title: "Customer Engagement Specialist",
+    title: "Customer Engagement & Sales (Bartender)",
     org: "Hospitality Industry",
     period: "Mar 2024 – Sep 2025",
     points: [
-      "Consistently increased revenue through upselling higher-margin products while maintaining strong customer satisfaction.",
-      "Identified operational inefficiencies and proposed improvements (e.g. speed pourers), reducing wastage and improving service accuracy.",
-      "Maintained composure in high-pressure environments, ensuring smooth service flow during peak hours.",
-      "Managed difficult customer interactions professionally, protecting brand reputation.",
+      "Generated consistent revenue through upselling and product recommendations.",
+      "Managed 150–300 customer interactions per shift with a focus on conversion.",
+      "Applied persuasive communication to influence purchasing decisions.",
+      "Handled objections and difficult customers while maintaining customer satisfaction.",
+      "Identified operational improvements that increased efficiency and reduced wastage.",
     ],
   },
   {
