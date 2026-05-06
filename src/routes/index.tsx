@@ -498,6 +498,69 @@ function Hobbies() {
   );
 }
 
+function SalesCapabilities() {
+  const items = [
+    { icon: Target, title: "Outbound prospecting", body: "Calls, email and LinkedIn outreach to generate qualified conversations." },
+    { icon: CheckCircle2, title: "Lead qualification", body: "Identifying fit, intent and timing to focus pipeline on real opportunities." },
+    { icon: Sparkles, title: "CRM management", body: "HubSpot (certified) and Salesforce (in training) for clean, actionable pipeline data." },
+    { icon: MessageCircle, title: "Objection handling", body: "Reframing concerns into clarity and momentum toward a decision." },
+    { icon: Rocket, title: "Pipeline contribution", body: "Sourcing, nurturing and progressing leads to support team revenue targets." },
+  ];
+  return (
+    <Section eyebrow="Sales capabilities" title="What I bring to a pipeline.">
+      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        {items.map((i) => (
+          <div key={i.title} className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
+            <div className="mb-4 grid h-10 w-10 place-items-center rounded-lg bg-primary/10 text-primary">
+              <i.icon className="h-5 w-5" />
+            </div>
+            <h3 className="font-semibold">{i.title}</h3>
+            <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{i.body}</p>
+          </div>
+        ))}
+      </div>
+    </Section>
+  );
+}
+
+function SalesHighlights() {
+  const stats = [
+    { value: "150–300", label: "Customer interactions per shift" },
+    { value: "18+ months", label: "Consistent upselling & revenue contribution" },
+    { value: "High-pressure", label: "Objection handling in live, fast-paced environments" },
+  ];
+  return (
+    <Section eyebrow="Sales performance highlights" title="Output thinking, even before a quota.">
+      <div className="grid gap-4 md:grid-cols-3">
+        {stats.map((s) => (
+          <div key={s.label} className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
+            <div className="font-display text-3xl font-extrabold text-primary">{s.value}</div>
+            <div className="mt-2 text-sm text-muted-foreground">{s.label}</div>
+          </div>
+        ))}
+      </div>
+    </Section>
+  );
+}
+
+function Languages() {
+  const langs = [
+    { name: "English", level: "Native" },
+    { name: "Dutch", level: "Basic — currently learning" },
+  ];
+  return (
+    <Section eyebrow="Languages" title="Languages.">
+      <div className="grid gap-3 sm:grid-cols-2">
+        {langs.map((l) => (
+          <div key={l.name} className="flex items-center justify-between rounded-2xl border border-border bg-card p-5 shadow-[var(--shadow-soft)]">
+            <span className="font-semibold">{l.name}</span>
+            <Badge variant="secondary" className="rounded-full font-normal">{l.level}</Badge>
+          </div>
+        ))}
+      </div>
+    </Section>
+  );
+}
 
 function Footer() {
   return (
