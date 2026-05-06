@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Mail, Phone, Linkedin, MapPin, ArrowRight, CheckCircle2, Circle, Sparkles, Briefcase, GraduationCap, Award, Users, Target, Rocket } from "lucide-react";
+import { Mail, Phone, Linkedin, MapPin, ArrowRight, CheckCircle2, Circle, Sparkles, Briefcase, GraduationCap, Award, Users, Target, Rocket, Heart, MessageCircle, FileSpreadsheet, FileText, Music, BookOpen, Mountain, Footprints, Lightbulb } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import gradPhoto from "@/assets/kavan-graduation.jpg";
