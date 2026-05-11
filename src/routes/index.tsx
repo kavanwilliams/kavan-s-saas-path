@@ -84,16 +84,16 @@ function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
             </span>
-            Open to opportunities · EU relocation
+            Open to international opportunities
           </Badge>
           <h1 className="font-display text-5xl font-extrabold leading-[1.05] tracking-tight md:text-6xl">
             Kavan Williams
           </h1>
           <p className="mt-4 text-xl font-medium text-foreground/80 md:text-2xl">
-            Sales Development Representative · SaaS & B2B Sales
+            Customer Growth & SaaS Professional · Hospitality Technology
           </p>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            Sales-driven Business & Marketing graduate generating revenue through high-volume customer engagement, upselling and persuasive communication — now building SaaS pipeline skills with HubSpot and Salesforce.
+            Business & Marketing graduate with experience in high-pressure customer-facing environments, customer engagement, and commercial communication — now building CRM, SaaS, and customer growth capabilities through HubSpot, Salesforce, and AI-enabled workflows.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild size="lg" className="rounded-full">
@@ -123,7 +123,7 @@ function Hero() {
                 <GraduationCap className="h-5 w-5" />
               </div>
               <div>
-                <div className="text-xs text-muted-foreground">Graduated 2025</div>
+                <div className="text-xs text-muted-foreground">Graduated 2024</div>
                 <div className="text-sm font-semibold">BCom Marketing & Business</div>
               </div>
             </div>
@@ -150,27 +150,27 @@ function Section({ id, eyebrow, title, children }: { id?: string; eyebrow: strin
 
 function Profile() {
   return (
-    <Section id="about" eyebrow="Profile" title="Sales-driven. Revenue-focused. Built for the pipeline.">
+    <Section id="about" eyebrow="Profile" title="Commercially minded. Customer-focused. Built for modern SaaS.">
       <div className="grid gap-8 md:grid-cols-3">
         <div className="md:col-span-2 space-y-4 text-lg leading-relaxed text-foreground/80">
           <p>
-            Sales-driven Business & Marketing graduate with hands-on experience generating revenue through high-volume customer engagement, upselling, and persuasive communication.
+            Business & Marketing graduate with hands-on experience in customer-facing environments requiring communication, adaptability, problem-solving, and performance under pressure.
           </p>
           <p>
-            Proven ability to influence purchasing decisions, handle objections, and maintain performance under pressure in fast-paced environments.
+            Experienced in high-volume customer interaction, upselling, objection handling, and relationship-building across hospitality and promotional environments.
           </p>
           <p>
-            Currently building SaaS sales capabilities through HubSpot CRM certification, Salesforce training, and outbound sales methodologies.
+            Currently transitioning into SaaS and customer-growth roles through CRM, sales, and AI workflow training in HubSpot, Salesforce, and modern business tools.
           </p>
           <p>
-            Seeking to contribute to pipeline generation and revenue growth within a high-performance sales team — with a long-term path into account management, project coordination, or operational roles.
+            Interested in opportunities across customer success, business development, onboarding, hospitality technology, and commercial SaaS environments — with long-term interests in operations, project coordination, and strategic customer growth.
           </p>
         </div>
         <div className="grid gap-4">
           {[
-            { icon: Target, label: "Career goal", value: "SDR in SaaS Sales" },
-            { icon: Sparkles, label: "Currently learning", value: "Salesforce · Inbound Sales" },
-            { icon: MapPin, label: "Availability", value: "Open to EU relocation" },
+            { icon: Target, label: "Focus", value: "Customer success · SaaS · BD" },
+            { icon: Sparkles, label: "Currently learning", value: "Salesforce · AI workflows" },
+            { icon: MapPin, label: "Availability", value: "Open to international opportunities" },
           ].map((s) => (
             <div key={s.label} className="rounded-2xl border border-border bg-card p-4 shadow-[var(--shadow-soft)]">
               <div className="flex items-center gap-3">
@@ -191,7 +191,7 @@ function Profile() {
 }
 
 function Skills() {
-  const sales = ["Customer engagement", "Persuasion & upselling", "Communication", "Conflict resolution", "Team coordination", "Adaptability", "Stakeholder communication", "Coordination & organisation", "Problem solving", "Process improvement"];
+  const sales = ["Customer engagement", "Communication", "Relationship building", "Customer experience", "Adaptability", "Problem solving", "Team coordination", "Stakeholder communication", "Operational support", "Process improvement"];
   const technical = [
     { name: "HubSpot CRM", status: "Certified" },
     { name: "Salesforce CRM", status: "Learning" },
@@ -201,11 +201,11 @@ function Skills() {
     { name: "Inbound Sales", status: "In progress" },
   ];
   return (
-    <Section id="skills" eyebrow="Core skills" title="Sales fundamentals meeting modern SaaS tooling.">
+    <Section id="skills" eyebrow="Core skills" title="Customer-facing fundamentals meeting modern SaaS tooling.">
       <div className="grid gap-6 md:grid-cols-2">
         <div className="rounded-2xl border border-border bg-card p-8 shadow-[var(--shadow-soft)]">
           <div className="mb-5 flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-muted-foreground">
-            <Briefcase className="h-4 w-4 text-primary" /> Sales & Business
+            <Briefcase className="h-4 w-4 text-primary" /> Commercial & Customer
           </div>
           <div className="flex flex-wrap gap-2">
             {sales.map((s) => (
@@ -235,14 +235,14 @@ function Skills() {
 
 const ROLES = [
   {
-    title: "Customer Engagement & Sales (Bartender)",
+    title: "Customer Engagement & Hospitality",
     org: "Hospitality Industry",
     period: "Mar 2024 – Sep 2025",
     points: [
-      "Generated consistent revenue through upselling and product recommendations.",
-      "Managed 150–300 customer interactions per shift with a focus on conversion.",
-      "Applied persuasive communication to influence purchasing decisions.",
-      "Handled objections and difficult customers while maintaining customer satisfaction.",
+      "Delivered consistent customer experience through attentive service, upselling, and product recommendations.",
+      "Managed 150–300 customer interactions per shift in a high-pressure environment.",
+      "Built rapport quickly and resolved conflict through clear, empathetic communication.",
+      "Handled objections and difficult customers while maintaining service quality.",
       "Identified operational improvements that increased efficiency and reduced wastage.",
     ],
   },
@@ -306,7 +306,7 @@ function Experience() {
 
 function Education() {
   const items = [
-    { degree: "Bachelor of Commerce — Marketing & Business Management Science", school: "IMM Graduate School", period: "2022 – 2024 · Graduated 2025" },
+    { degree: "Bachelor of Commerce — Marketing & Business Management Science", school: "IMM Graduate School", period: "2022 – 2024 · Graduated 2024" },
     { degree: "Diploma in Sound Production", school: "SAE Institute Cape Town", period: "2025" },
     { degree: "Bachelor of Hospitality Management (IIE)", school: "Pivoted to business focus mid-year", period: "Jan – Dec 2021" },
     { degree: "National Senior Certificate (Matric)", school: "Glenwood House School, George", period: "2019" },
@@ -334,7 +334,7 @@ function Certifications() {
     { name: "HubSpot CRM", status: "Completed", done: true },
     { name: "HubSpot Inbound Sales", status: "In progress", done: false },
     { name: "Salesforce CRM", status: "In progress", done: false },
-    { name: "Claude AI for Work", status: "In progress", done: false },
+    { name: "AI Productivity & Workflow Learning", status: "In progress", done: false },
     { name: "Google Project Management", status: "Planned", done: false },
   ];
   return (
@@ -360,13 +360,13 @@ function Certifications() {
 
 function Leadership() {
   const items = [
-    { icon: Users, title: "Promotions team coordination", body: "Coordinated and managed a promotions team for a Cape Town music collective event in Stellenbosch." },
-    { icon: GraduationCap, title: "University leadership", body: "Led group projects, coordinating team deliverables and ensuring deadlines were met." },
-    { icon: Briefcase, title: "Staff training", body: "Supported onboarding and training of new staff in hospitality environments." },
+    { icon: Users, title: "Promotions team coordination", body: "Coordinated and supported a promotions team for a Cape Town music collective event in Stellenbosch — clear communication and reliable delivery under deadline." },
+    { icon: GraduationCap, title: "University collaboration", body: "Led group projects, coordinating team deliverables, aligning stakeholders and meeting deadlines." },
+    { icon: Briefcase, title: "Onboarding & training", body: "Supported onboarding and training of new staff in hospitality environments — patient, clear and team-first." },
     { icon: Rocket, title: "Marathon running", body: "Long-distance running builds discipline, resilience and the patience for compounding results." },
   ];
   return (
-    <Section eyebrow="Leadership & Development" title="How I show up for teams and customers.">
+    <Section eyebrow="Leadership & Collaboration" title="How I show up for teams and customers.">
       <div className="grid gap-4 md:grid-cols-2">
         {items.map((i) => (
           <div key={i.title} className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
@@ -383,9 +383,9 @@ function Leadership() {
 }
 
 function Growth() {
-  const areas = ["Delegation", "Technical skills", "Time management"];
+  const areas = ["CRM workflow depth", "SaaS systems learning", "Structured productivity", "Collaboration & delegation"];
   return (
-    <Section eyebrow="Development Areas" title="Areas I’m actively investing in.">
+    <Section eyebrow="Current Growth Focus" title="Where I’m investing right now.">
       <div className="flex flex-wrap gap-3">
         {areas.map((a) => (
           <div key={a} className="rounded-full border border-dashed border-border bg-card px-5 py-2.5 text-sm font-medium">
@@ -394,7 +394,7 @@ function Growth() {
         ))}
       </div>
       <p className="mt-6 max-w-2xl text-sm text-muted-foreground">
-        Self-awareness is a sales skill. I track my weak spots and pair them with deliberate practice — currently structured study time, deeper CRM workflows, and learning to hand off rather than hold on.
+        Deliberate practice on the things that compound: deeper CRM workflows, modern SaaS tooling, AI-enabled productivity, and collaborating effectively across teams.
       </p>
     </Section>
   );
@@ -402,16 +402,16 @@ function Growth() {
 
 function Projects() {
   return (
-    <Section eyebrow="Projects" title="Sales Portfolio">
+    <Section eyebrow="Projects" title="Customer & Commercial Portfolio">
       <div className="relative overflow-hidden rounded-3xl border border-border bg-card p-10 shadow-[var(--shadow-soft)] md:p-14">
         <div
           className="absolute inset-0 -z-10 opacity-40"
           style={{ background: "radial-gradient(50% 60% at 100% 0%, oklch(0.85 0.12 255 / 0.7), transparent 60%)" }}
         />
         <Badge className="rounded-full">Coming soon</Badge>
-        <h3 className="mt-4 font-display text-2xl font-bold md:text-3xl">A live walkthrough of my SDR work.</h3>
+        <h3 className="mt-4 font-display text-2xl font-bold md:text-3xl">A walkthrough of my CRM, customer, and SaaS work.</h3>
         <p className="mt-3 max-w-xl text-muted-foreground">
-          I’m putting together case studies of outbound sequences, CRM workflows, and discovery call frameworks. Check back soon — or reach out if you’d like an early look.
+          I’m putting together short case studies of CRM workflows, customer engagement frameworks, and AI-enabled productivity experiments. Reach out if you’d like an early look.
         </p>
       </div>
     </Section>
@@ -423,9 +423,9 @@ function Contact() {
     <section id="contact" className="border-t border-border/60 py-24">
       <div className="mx-auto max-w-4xl px-6 text-center">
         <div className="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-primary">Contact</div>
-        <h2 className="font-display text-4xl font-bold tracking-tight md:text-5xl">Let’s build a pipeline together.</h2>
+        <h2 className="font-display text-4xl font-bold tracking-tight md:text-5xl">Let’s build something together.</h2>
         <p className="mx-auto mt-5 max-w-xl text-lg text-muted-foreground">
-          Open to SDR and business development opportunities — locally in South Africa or internationally with relocation.
+          Open to customer success, business development, SaaS, and hospitality technology opportunities — locally in South Africa or internationally.
         </p>
         <div className="mt-10 grid gap-4 sm:grid-cols-3">
           {[
@@ -443,7 +443,7 @@ function Contact() {
           ))}
         </div>
         <Badge variant="secondary" className="mt-10 rounded-full px-4 py-2 text-sm">
-          <Award className="mr-2 h-4 w-4 text-primary" /> Open to EU relocation
+          <Award className="mr-2 h-4 w-4 text-primary" /> Open to international opportunities
         </Badge>
       </div>
     </section>
@@ -455,10 +455,10 @@ function PeopleSkills() {
     { icon: MessageCircle, title: "Active listening", body: "Hearing what customers actually need — not just what they say first." },
     { icon: Users, title: "Relationship building", body: "Building rapport quickly across cultures, teams and customer types." },
     { icon: Heart, title: "Empathy", body: "Understanding the human behind the conversation — even under pressure." },
-    { icon: Sparkles, title: "Persuasive communication", body: "Framing value clearly and guiding people toward confident decisions." },
+    { icon: Sparkles, title: "Clear communication", body: "Framing value clearly and guiding people toward confident decisions." },
   ];
   return (
-    <Section eyebrow="People skills" title="The human side of sales.">
+    <Section eyebrow="People skills" title="The human side of customer-facing work.">
       <div className="grid gap-4 md:grid-cols-2">
         {items.map((i) => (
           <div key={i.title} className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
@@ -500,14 +500,15 @@ function Hobbies() {
 
 function SalesCapabilities() {
   const items = [
-    { icon: Target, title: "Outbound prospecting", body: "Calls, email and LinkedIn outreach to generate qualified conversations." },
-    { icon: CheckCircle2, title: "Lead qualification", body: "Identifying fit, intent and timing to focus pipeline on real opportunities." },
-    { icon: Sparkles, title: "CRM management", body: "HubSpot (certified) and Salesforce (in training) for clean, actionable pipeline data." },
-    { icon: MessageCircle, title: "Objection handling", body: "Reframing concerns into clarity and momentum toward a decision." },
-    { icon: Rocket, title: "Pipeline contribution", body: "Sourcing, nurturing and progressing leads to support team revenue targets." },
+    { icon: Users, title: "Customer engagement", body: "Building rapport and trust quickly across cultures, channels and customer types." },
+    { icon: Heart, title: "Relationship management", body: "Following up, listening and keeping customers supported through their journey." },
+    { icon: Sparkles, title: "CRM & SaaS tools", body: "HubSpot (certified), Salesforce (in training) and modern productivity tools for clean, actionable data." },
+    { icon: MessageCircle, title: "Objection handling", body: "Reframing concerns into clarity — moving conversations forward without pressure." },
+    { icon: Target, title: "Onboarding & support mindset", body: "Helping customers get to value quickly through clear guidance and structured handovers." },
+    { icon: Rocket, title: "Operational awareness", body: "Spotting friction in workflows and contributing small improvements that compound." },
   ];
   return (
-    <Section eyebrow="Sales capabilities" title="What I bring to a pipeline.">
+    <Section eyebrow="Commercial & customer capabilities" title="What I bring to a customer-facing team.">
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {items.map((i) => (
           <div key={i.title} className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
@@ -526,11 +527,11 @@ function SalesCapabilities() {
 function SalesHighlights() {
   const stats = [
     { value: "150–300", label: "Customer interactions per shift" },
-    { value: "18+ months", label: "Consistent upselling & revenue contribution" },
-    { value: "High-pressure", label: "Objection handling in live, fast-paced environments" },
+    { value: "18+ months", label: "Consistent customer experience & upselling contribution" },
+    { value: "High-pressure", label: "Customer-facing performance in fast-paced environments" },
   ];
   return (
-    <Section eyebrow="Sales performance highlights" title="Output thinking, even before a quota.">
+    <Section eyebrow="Performance highlights" title="Customer-facing performance in fast-paced environments.">
       <div className="grid gap-4 md:grid-cols-3">
         {stats.map((s) => (
           <div key={s.label} className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
@@ -546,7 +547,7 @@ function SalesHighlights() {
 function Languages() {
   const langs = [
     { name: "English", level: "Native" },
-    { name: "Dutch", level: "Basic — currently learning" },
+    { name: "Dutch", level: "Beginner — actively learning" },
   ];
   return (
     <Section eyebrow="Languages" title="Languages.">
