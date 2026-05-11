@@ -500,14 +500,15 @@ function Hobbies() {
 
 function SalesCapabilities() {
   const items = [
-    { icon: Target, title: "Outbound prospecting", body: "Calls, email and LinkedIn outreach to generate qualified conversations." },
-    { icon: CheckCircle2, title: "Lead qualification", body: "Identifying fit, intent and timing to focus pipeline on real opportunities." },
-    { icon: Sparkles, title: "CRM management", body: "HubSpot (certified) and Salesforce (in training) for clean, actionable pipeline data." },
-    { icon: MessageCircle, title: "Objection handling", body: "Reframing concerns into clarity and momentum toward a decision." },
-    { icon: Rocket, title: "Pipeline contribution", body: "Sourcing, nurturing and progressing leads to support team revenue targets." },
+    { icon: Users, title: "Customer engagement", body: "Building rapport and trust quickly across cultures, channels and customer types." },
+    { icon: Heart, title: "Relationship management", body: "Following up, listening and keeping customers supported through their journey." },
+    { icon: Sparkles, title: "CRM & SaaS tools", body: "HubSpot (certified), Salesforce (in training) and modern productivity tools for clean, actionable data." },
+    { icon: MessageCircle, title: "Objection handling", body: "Reframing concerns into clarity — moving conversations forward without pressure." },
+    { icon: Target, title: "Onboarding & support mindset", body: "Helping customers get to value quickly through clear guidance and structured handovers." },
+    { icon: Rocket, title: "Operational awareness", body: "Spotting friction in workflows and contributing small improvements that compound." },
   ];
   return (
-    <Section eyebrow="Sales capabilities" title="What I bring to a pipeline.">
+    <Section eyebrow="Commercial & customer capabilities" title="What I bring to a customer-facing team.">
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {items.map((i) => (
           <div key={i.title} className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
@@ -526,11 +527,11 @@ function SalesCapabilities() {
 function SalesHighlights() {
   const stats = [
     { value: "150–300", label: "Customer interactions per shift" },
-    { value: "18+ months", label: "Consistent upselling & revenue contribution" },
-    { value: "High-pressure", label: "Objection handling in live, fast-paced environments" },
+    { value: "18+ months", label: "Consistent customer experience & upselling contribution" },
+    { value: "High-pressure", label: "Customer-facing performance in fast-paced environments" },
   ];
   return (
-    <Section eyebrow="Sales performance highlights" title="Output thinking, even before a quota.">
+    <Section eyebrow="Performance highlights" title="Customer-facing performance in fast-paced environments.">
       <div className="grid gap-4 md:grid-cols-3">
         {stats.map((s) => (
           <div key={s.label} className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
@@ -546,7 +547,7 @@ function SalesHighlights() {
 function Languages() {
   const langs = [
     { name: "English", level: "Native" },
-    { name: "Dutch", level: "Basic — currently learning" },
+    { name: "Dutch", level: "Beginner — actively learning" },
   ];
   return (
     <Section eyebrow="Languages" title="Languages.">
