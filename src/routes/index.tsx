@@ -423,9 +423,9 @@ function Contact() {
     <section id="contact" className="border-t border-border/60 py-24">
       <div className="mx-auto max-w-4xl px-6 text-center">
         <div className="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-primary">Contact</div>
-        <h2 className="font-display text-4xl font-bold tracking-tight md:text-5xl">Let’s build a pipeline together.</h2>
+        <h2 className="font-display text-4xl font-bold tracking-tight md:text-5xl">Let’s build something together.</h2>
         <p className="mx-auto mt-5 max-w-xl text-lg text-muted-foreground">
-          Open to SDR and business development opportunities — locally in South Africa or internationally with relocation.
+          Open to customer success, business development, SaaS, and hospitality technology opportunities — locally in South Africa or internationally.
         </p>
         <div className="mt-10 grid gap-4 sm:grid-cols-3">
           {[
@@ -443,7 +443,7 @@ function Contact() {
           ))}
         </div>
         <Badge variant="secondary" className="mt-10 rounded-full px-4 py-2 text-sm">
-          <Award className="mr-2 h-4 w-4 text-primary" /> Open to EU relocation
+          <Award className="mr-2 h-4 w-4 text-primary" /> Open to international opportunities
         </Badge>
       </div>
     </section>
