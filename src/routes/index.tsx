@@ -33,6 +33,7 @@ function Home() {
         <PeopleSkills />
         <Languages />
         <Growth />
+        <CareerObjectives />
         <Hobbies />
         <Projects />
         <Contact />
