@@ -564,6 +564,29 @@ function Languages() {
   );
 }
 
+function CareerObjectives() {
+  const goals = [
+    { title: "Short-term", text: "Land a customer-facing commercial role in SaaS, hospitality tech, or B2B services where I can apply my communication, coordination, and customer-growth skills." },
+    { title: "Mid-term", text: "Grow from sales into account management, customer success, onboarding, or project coordination — owning relationships and driving measurable outcomes." },
+    { title: "Long-term", text: "Develop into an operational or commercial leadership role bridging customers, product, and revenue in a modern, internationally minded company." },
+  ];
+  return (
+    <Section eyebrow="Career Objectives" title="Career objectives & professional goals.">
+      <p className="mb-6 max-w-3xl text-muted-foreground">
+        I’m focused on building a long-term career at the intersection of customers, commercial growth, and operations — staying adaptable, internationally employable, and ready for the AI-era of work.
+      </p>
+      <div className="grid gap-4 md:grid-cols-3">
+        {goals.map((g) => (
+          <div key={g.title} className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
+            <div className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">{g.title}</div>
+            <p className="text-sm text-muted-foreground">{g.text}</p>
+          </div>
+        ))}
+      </div>
+    </Section>
+  );
+}
+
 function Footer() {
   return (
     <footer className="border-t border-border/60 py-8">
