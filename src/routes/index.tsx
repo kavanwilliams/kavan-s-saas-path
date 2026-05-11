@@ -455,10 +455,10 @@ function PeopleSkills() {
     { icon: MessageCircle, title: "Active listening", body: "Hearing what customers actually need — not just what they say first." },
     { icon: Users, title: "Relationship building", body: "Building rapport quickly across cultures, teams and customer types." },
     { icon: Heart, title: "Empathy", body: "Understanding the human behind the conversation — even under pressure." },
-    { icon: Sparkles, title: "Persuasive communication", body: "Framing value clearly and guiding people toward confident decisions." },
+    { icon: Sparkles, title: "Clear communication", body: "Framing value clearly and guiding people toward confident decisions." },
   ];
   return (
-    <Section eyebrow="People skills" title="The human side of sales.">
+    <Section eyebrow="People skills" title="The human side of customer-facing work.">
       <div className="grid gap-4 md:grid-cols-2">
         {items.map((i) => (
           <div key={i.title} className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
