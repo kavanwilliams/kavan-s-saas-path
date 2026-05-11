@@ -402,16 +402,16 @@ function Growth() {
 
 function Projects() {
   return (
-    <Section eyebrow="Projects" title="Sales Portfolio">
+    <Section eyebrow="Projects" title="Customer & Commercial Portfolio">
       <div className="relative overflow-hidden rounded-3xl border border-border bg-card p-10 shadow-[var(--shadow-soft)] md:p-14">
         <div
           className="absolute inset-0 -z-10 opacity-40"
           style={{ background: "radial-gradient(50% 60% at 100% 0%, oklch(0.85 0.12 255 / 0.7), transparent 60%)" }}
         />
         <Badge className="rounded-full">Coming soon</Badge>
-        <h3 className="mt-4 font-display text-2xl font-bold md:text-3xl">A live walkthrough of my SDR work.</h3>
+        <h3 className="mt-4 font-display text-2xl font-bold md:text-3xl">A walkthrough of my CRM, customer, and SaaS work.</h3>
         <p className="mt-3 max-w-xl text-muted-foreground">
-          I’m putting together case studies of outbound sequences, CRM workflows, and discovery call frameworks. Check back soon — or reach out if you’d like an early look.
+          I’m putting together short case studies of CRM workflows, customer engagement frameworks, and AI-enabled productivity experiments. Reach out if you’d like an early look.
         </p>
       </div>
     </Section>
