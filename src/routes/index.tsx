@@ -123,7 +123,7 @@ function Hero() {
                 <GraduationCap className="h-5 w-5" />
               </div>
               <div>
-                <div className="text-xs text-muted-foreground">Graduated 2025</div>
+                <div className="text-xs text-muted-foreground">Graduated 2024</div>
                 <div className="text-sm font-semibold">BCom Marketing & Business</div>
               </div>
             </div>
