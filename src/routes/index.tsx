@@ -383,9 +383,9 @@ function Leadership() {
 }
 
 function Growth() {
-  const areas = ["Delegation", "Technical skills", "Time management"];
+  const areas = ["CRM workflow depth", "SaaS systems learning", "Structured productivity", "Collaboration & delegation"];
   return (
-    <Section eyebrow="Development Areas" title="Areas I’m actively investing in.">
+    <Section eyebrow="Current Growth Focus" title="Where I’m investing right now.">
       <div className="flex flex-wrap gap-3">
         {areas.map((a) => (
           <div key={a} className="rounded-full border border-dashed border-border bg-card px-5 py-2.5 text-sm font-medium">
@@ -394,7 +394,7 @@ function Growth() {
         ))}
       </div>
       <p className="mt-6 max-w-2xl text-sm text-muted-foreground">
-        Self-awareness is a sales skill. I track my weak spots and pair them with deliberate practice — currently structured study time, deeper CRM workflows, and learning to hand off rather than hold on.
+        Deliberate practice on the things that compound: deeper CRM workflows, modern SaaS tooling, AI-enabled productivity, and collaborating effectively across teams.
       </p>
     </Section>
   );
