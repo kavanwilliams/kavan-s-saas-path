@@ -150,27 +150,27 @@ function Section({ id, eyebrow, title, children }: { id?: string; eyebrow: strin
 
 function Profile() {
   return (
-    <Section id="about" eyebrow="Profile" title="Sales-driven. Revenue-focused. Built for the pipeline.">
+    <Section id="about" eyebrow="Profile" title="Commercially minded. Customer-focused. Built for modern SaaS.">
       <div className="grid gap-8 md:grid-cols-3">
         <div className="md:col-span-2 space-y-4 text-lg leading-relaxed text-foreground/80">
           <p>
-            Sales-driven Business & Marketing graduate with hands-on experience generating revenue through high-volume customer engagement, upselling, and persuasive communication.
+            Business & Marketing graduate with hands-on experience in customer-facing environments requiring communication, adaptability, problem-solving, and performance under pressure.
           </p>
           <p>
-            Proven ability to influence purchasing decisions, handle objections, and maintain performance under pressure in fast-paced environments.
+            Experienced in high-volume customer interaction, upselling, objection handling, and relationship-building across hospitality and promotional environments.
           </p>
           <p>
-            Currently building SaaS sales capabilities through HubSpot CRM certification, Salesforce training, and outbound sales methodologies.
+            Currently transitioning into SaaS and customer-growth roles through CRM, sales, and AI workflow training in HubSpot, Salesforce, and modern business tools.
           </p>
           <p>
-            Seeking to contribute to pipeline generation and revenue growth within a high-performance sales team — with a long-term path into account management, project coordination, or operational roles.
+            Interested in opportunities across customer success, business development, onboarding, hospitality technology, and commercial SaaS environments — with long-term interests in operations, project coordination, and strategic customer growth.
           </p>
         </div>
         <div className="grid gap-4">
           {[
-            { icon: Target, label: "Career goal", value: "SDR in SaaS Sales" },
-            { icon: Sparkles, label: "Currently learning", value: "Salesforce · Inbound Sales" },
-            { icon: MapPin, label: "Availability", value: "Open to EU relocation" },
+            { icon: Target, label: "Focus", value: "Customer success · SaaS · BD" },
+            { icon: Sparkles, label: "Currently learning", value: "Salesforce · AI workflows" },
+            { icon: MapPin, label: "Availability", value: "Open to international opportunities" },
           ].map((s) => (
             <div key={s.label} className="rounded-2xl border border-border bg-card p-4 shadow-[var(--shadow-soft)]">
               <div className="flex items-center gap-3">
