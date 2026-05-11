@@ -235,14 +235,14 @@ function Skills() {
 
 const ROLES = [
   {
-    title: "Customer Engagement & Sales (Bartender)",
+    title: "Customer Engagement & Hospitality",
     org: "Hospitality Industry",
     period: "Mar 2024 – Sep 2025",
     points: [
-      "Generated consistent revenue through upselling and product recommendations.",
-      "Managed 150–300 customer interactions per shift with a focus on conversion.",
-      "Applied persuasive communication to influence purchasing decisions.",
-      "Handled objections and difficult customers while maintaining customer satisfaction.",
+      "Delivered consistent customer experience through attentive service, upselling, and product recommendations.",
+      "Managed 150–300 customer interactions per shift in a high-pressure environment.",
+      "Built rapport quickly and resolved conflict through clear, empathetic communication.",
+      "Handled objections and difficult customers while maintaining service quality.",
       "Identified operational improvements that increased efficiency and reduced wastage.",
     ],
   },
