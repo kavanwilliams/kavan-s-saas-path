@@ -84,16 +84,16 @@ function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
             </span>
-            Open to opportunities · EU relocation
+            Open to international opportunities
           </Badge>
           <h1 className="font-display text-5xl font-extrabold leading-[1.05] tracking-tight md:text-6xl">
             Kavan Williams
           </h1>
           <p className="mt-4 text-xl font-medium text-foreground/80 md:text-2xl">
-            Sales Development Representative · SaaS & B2B Sales
+            Customer Growth & SaaS Professional · Hospitality Technology
           </p>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            Sales-driven Business & Marketing graduate generating revenue through high-volume customer engagement, upselling and persuasive communication — now building SaaS pipeline skills with HubSpot and Salesforce.
+            Business & Marketing graduate with experience in high-pressure customer-facing environments, customer engagement, and commercial communication — now building CRM, SaaS, and customer growth capabilities through HubSpot, Salesforce, and AI-enabled workflows.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild size="lg" className="rounded-full">
