@@ -306,7 +306,7 @@ function Experience() {
 
 function Education() {
   const items = [
-    { degree: "Bachelor of Commerce — Marketing & Business Management Science", school: "IMM Graduate School", period: "2022 – 2024 · Graduated 2025" },
+    { degree: "Bachelor of Commerce — Marketing & Business Management Science", school: "IMM Graduate School", period: "2022 – 2024 · Graduated 2024" },
     { degree: "Diploma in Sound Production", school: "SAE Institute Cape Town", period: "2025" },
     { degree: "Bachelor of Hospitality Management (IIE)", school: "Pivoted to business focus mid-year", period: "Jan – Dec 2021" },
     { degree: "National Senior Certificate (Matric)", school: "Glenwood House School, George", period: "2019" },
