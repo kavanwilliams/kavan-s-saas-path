@@ -360,13 +360,13 @@ function Certifications() {
 
 function Leadership() {
   const items = [
-    { icon: Users, title: "Promotions team coordination", body: "Coordinated and managed a promotions team for a Cape Town music collective event in Stellenbosch." },
-    { icon: GraduationCap, title: "University leadership", body: "Led group projects, coordinating team deliverables and ensuring deadlines were met." },
-    { icon: Briefcase, title: "Staff training", body: "Supported onboarding and training of new staff in hospitality environments." },
+    { icon: Users, title: "Promotions team coordination", body: "Coordinated and supported a promotions team for a Cape Town music collective event in Stellenbosch — clear communication and reliable delivery under deadline." },
+    { icon: GraduationCap, title: "University collaboration", body: "Led group projects, coordinating team deliverables, aligning stakeholders and meeting deadlines." },
+    { icon: Briefcase, title: "Onboarding & training", body: "Supported onboarding and training of new staff in hospitality environments — patient, clear and team-first." },
     { icon: Rocket, title: "Marathon running", body: "Long-distance running builds discipline, resilience and the patience for compounding results." },
   ];
   return (
-    <Section eyebrow="Leadership & Development" title="How I show up for teams and customers.">
+    <Section eyebrow="Leadership & Collaboration" title="How I show up for teams and customers.">
       <div className="grid gap-4 md:grid-cols-2">
         {items.map((i) => (
           <div key={i.title} className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
