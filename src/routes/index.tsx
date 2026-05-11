@@ -191,7 +191,7 @@ function Profile() {
 }
 
 function Skills() {
-  const sales = ["Customer engagement", "Persuasion & upselling", "Communication", "Conflict resolution", "Team coordination", "Adaptability", "Stakeholder communication", "Coordination & organisation", "Problem solving", "Process improvement"];
+  const sales = ["Customer engagement", "Communication", "Relationship building", "Customer experience", "Adaptability", "Problem solving", "Team coordination", "Stakeholder communication", "Operational support", "Process improvement"];
   const technical = [
     { name: "HubSpot CRM", status: "Certified" },
     { name: "Salesforce CRM", status: "Learning" },
@@ -201,11 +201,11 @@ function Skills() {
     { name: "Inbound Sales", status: "In progress" },
   ];
   return (
-    <Section id="skills" eyebrow="Core skills" title="Sales fundamentals meeting modern SaaS tooling.">
+    <Section id="skills" eyebrow="Core skills" title="Customer-facing fundamentals meeting modern SaaS tooling.">
       <div className="grid gap-6 md:grid-cols-2">
         <div className="rounded-2xl border border-border bg-card p-8 shadow-[var(--shadow-soft)]">
           <div className="mb-5 flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-muted-foreground">
-            <Briefcase className="h-4 w-4 text-primary" /> Sales & Business
+            <Briefcase className="h-4 w-4 text-primary" /> Commercial & Customer
           </div>
           <div className="flex flex-wrap gap-2">
             {sales.map((s) => (
