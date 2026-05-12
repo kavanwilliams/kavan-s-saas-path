@@ -151,20 +151,20 @@ function Section({ id, eyebrow, title, children }: { id?: string; eyebrow: strin
 
 function Profile() {
   return (
-    <Section id="about" eyebrow="Profile" title="Commercially minded. Customer-focused. Built for modern SaaS.">
+    <Section id="about" eyebrow="Profile" title="Customer-facing. Systems-oriented. Built for modern SaaS environments.">
       <div className="grid gap-8 md:grid-cols-3">
         <div className="md:col-span-2 space-y-4 text-lg leading-relaxed text-foreground/80">
           <p>
-            Business & Marketing graduate with hands-on experience in customer-facing environments requiring communication, adaptability, problem-solving, and performance under pressure.
+            Business & Marketing graduate who thinks in patterns, processes, and relationships — with hands-on experience in customer-facing environments that demand clear communication, adaptability, and steady performance under pressure.
           </p>
           <p>
-            Experienced in high-volume customer interaction, upselling, objection handling, and relationship-building across hospitality and promotional environments.
+            Strong at translating customer conversations into structured outcomes: rapport-building, problem-solving, conflict resolution, and operational coordination across hospitality and brand activation work.
           </p>
           <p>
-            Currently transitioning into SaaS and customer-growth roles through CRM, sales, and AI workflow training in HubSpot, Salesforce, and modern business tools.
+            Currently building CRM, SaaS, and AI-workflow capability through HubSpot, Salesforce, and modern productivity tools — focused on the systems side of customer growth.
           </p>
           <p>
-            Interested in opportunities across customer success, business development, onboarding, hospitality technology, and commercial SaaS environments — with long-term interests in operations, project coordination, and strategic customer growth.
+            Open to roles across customer success, onboarding, business development, hospitality technology, and account coordination — with a long-term interest in operations and structured commercial environments.
           </p>
         </div>
         <div className="grid gap-4">
