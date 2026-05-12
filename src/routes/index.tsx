@@ -91,10 +91,10 @@ function Hero() {
             Kavan Williams
           </h1>
           <p className="mt-4 text-xl font-medium text-foreground/80 md:text-2xl">
-            Customer Growth & SaaS Professional · Hospitality Technology
+            Customer Growth · SaaS · Customer Success · Hospitality Technology
           </p>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            Business & Marketing graduate with experience in high-pressure customer-facing environments, customer engagement, and commercial communication — now building CRM, SaaS, and customer growth capabilities through HubSpot, Salesforce, and AI-enabled workflows.
+            Commercially minded, systems-oriented Business & Marketing graduate with strong customer-facing experience — transitioning into SaaS, customer success, onboarding, and modern business operations through CRM, AI workflows, and structured learning.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild size="lg" className="rounded-full">
