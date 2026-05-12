@@ -279,7 +279,7 @@ const ROLES = [
 
 function Experience() {
   return (
-    <Section id="experience" eyebrow="Experience" title="Customer-facing, performance-driven roles.">
+    <Section id="experience" eyebrow="Experience" title="Customer-facing roles with operational and commercial depth.">
       <div className="space-y-5">
         {ROLES.map((r) => (
           <div key={r.title} className="group rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)] transition-all hover:-translate-y-0.5 hover:shadow-[var(--shadow-elevated)] md:p-8">
