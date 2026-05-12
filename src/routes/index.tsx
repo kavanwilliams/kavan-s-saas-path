@@ -91,10 +91,10 @@ function Hero() {
             Kavan Williams
           </h1>
           <p className="mt-4 text-xl font-medium text-foreground/80 md:text-2xl">
-            Customer Growth & SaaS Professional · Hospitality Technology
+            Customer Growth · SaaS · Customer Success · Hospitality Technology
           </p>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            Business & Marketing graduate with experience in high-pressure customer-facing environments, customer engagement, and commercial communication — now building CRM, SaaS, and customer growth capabilities through HubSpot, Salesforce, and AI-enabled workflows.
+            Commercially minded, systems-oriented Business & Marketing graduate with strong customer-facing experience — transitioning into SaaS, customer success, onboarding, and modern business operations through CRM, AI workflows, and structured learning.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild size="lg" className="rounded-full">
@@ -151,20 +151,20 @@ function Section({ id, eyebrow, title, children }: { id?: string; eyebrow: strin
 
 function Profile() {
   return (
-    <Section id="about" eyebrow="Profile" title="Commercially minded. Customer-focused. Built for modern SaaS.">
+    <Section id="about" eyebrow="Profile" title="Customer-facing. Systems-oriented. Built for modern SaaS environments.">
       <div className="grid gap-8 md:grid-cols-3">
         <div className="md:col-span-2 space-y-4 text-lg leading-relaxed text-foreground/80">
           <p>
-            Business & Marketing graduate with hands-on experience in customer-facing environments requiring communication, adaptability, problem-solving, and performance under pressure.
+            Business & Marketing graduate who thinks in patterns, processes, and relationships — with hands-on experience in customer-facing environments that demand clear communication, adaptability, and steady performance under pressure.
           </p>
           <p>
-            Experienced in high-volume customer interaction, upselling, objection handling, and relationship-building across hospitality and promotional environments.
+            Strong at translating customer conversations into structured outcomes: rapport-building, problem-solving, conflict resolution, and operational coordination across hospitality and brand activation work.
           </p>
           <p>
-            Currently transitioning into SaaS and customer-growth roles through CRM, sales, and AI workflow training in HubSpot, Salesforce, and modern business tools.
+            Currently building CRM, SaaS, and AI-workflow capability through HubSpot, Salesforce, and modern productivity tools — focused on the systems side of customer growth.
           </p>
           <p>
-            Interested in opportunities across customer success, business development, onboarding, hospitality technology, and commercial SaaS environments — with long-term interests in operations, project coordination, and strategic customer growth.
+            Open to roles across customer success, onboarding, business development, hospitality technology, and account coordination — with a long-term interest in operations and structured commercial environments.
           </p>
         </div>
         <div className="grid gap-4">
@@ -240,11 +240,11 @@ const ROLES = [
     org: "Hospitality Industry",
     period: "Mar 2024 – Sep 2025",
     points: [
-      "Delivered consistent customer experience through attentive service, upselling, and product recommendations.",
-      "Managed 150–300 customer interactions per shift in a high-pressure environment.",
-      "Built rapport quickly and resolved conflict through clear, empathetic communication.",
-      "Handled objections and difficult customers while maintaining service quality.",
-      "Identified operational improvements that increased efficiency and reduced wastage.",
+      "Delivered consistent customer experience through attentive service, clear communication, and structured product recommendations.",
+      "Managed 150–300 customer interactions per shift while maintaining service quality and operational pace.",
+      "Built rapport quickly across diverse customer types and resolved conflict through empathetic, solution-focused communication.",
+      "Supported onboarding and training of new team members — patient handovers and clear process explanation.",
+      "Identified small operational improvements that reduced friction, improved efficiency, and lowered wastage.",
     ],
   },
   {
@@ -252,9 +252,9 @@ const ROLES = [
     org: "JTI Campaigns",
     period: "2022 – 2023",
     points: [
-      "Represented international FMCG brands in direct-to-consumer campaigns.",
-      "Influenced purchasing decisions through structured product communication.",
-      "Delivered high-energy customer engagement in fast-paced promotional environments.",
+      "Represented international FMCG brands in direct-to-consumer activations — translating product features into clear customer value.",
+      "Coordinated with team leads and venues to deliver activations on schedule.",
+      "Built quick rapport with customers in fast-paced, unfamiliar environments.",
     ],
   },
   {
@@ -262,8 +262,8 @@ const ROLES = [
     org: "Caspita Restaurant",
     period: "2019",
     points: [
-      "Delivered efficient and attentive service in a busy restaurant environment.",
-      "Built strong communication and customer service foundations.",
+      "Delivered efficient, attentive service in a busy restaurant environment.",
+      "Built foundational communication, coordination, and customer service habits.",
     ],
   },
   {
@@ -271,7 +271,7 @@ const ROLES = [
     org: "Tekkie Town",
     period: "Jun 2018",
     points: [
-      "Gained exposure to retail operations, warehouse processes, and in-store merchandising.",
+      "Exposure to retail operations, warehouse processes, and in-store merchandising.",
       "Supported multiple departments including marketing and storefront operations.",
     ],
   },
@@ -279,7 +279,7 @@ const ROLES = [
 
 function Experience() {
   return (
-    <Section id="experience" eyebrow="Experience" title="Customer-facing, performance-driven roles.">
+    <Section id="experience" eyebrow="Experience" title="Customer-facing roles with operational and commercial depth.">
       <div className="space-y-5">
         {ROLES.map((r) => (
           <div key={r.title} className="group rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-soft)] transition-all hover:-translate-y-0.5 hover:shadow-[var(--shadow-elevated)] md:p-8">
