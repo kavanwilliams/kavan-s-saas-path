@@ -309,6 +309,7 @@ function Education() {
 function Certifications() {
   const certs = [
     { name: "HubSpot CRM", status: "Completed", done: true },
+    { name: "HubSpot Inbound Sales", status: "In progress", done: false },
     { name: "Salesforce CRM", status: "In progress", done: false },
     { name: "Claude AI for Work", status: "In progress", done: false },
     { name: "Google Project Management", status: "Planned", done: false },
