@@ -3,7 +3,8 @@ import { Mail, Phone, Linkedin, MapPin, ArrowRight, CheckCircle2, Circle, Sparkl
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { useState } from "react";
-import formalPhoto from "@/assets/kavan-formal.png";
+import formalPhotoAsset from "@/assets/kavan-passport.png.asset.json";
+const formalPhoto = formalPhotoAsset.url;
 
 export const Route = createFileRoute("/")({
   component: Home,
