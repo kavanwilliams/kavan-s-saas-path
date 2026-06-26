@@ -86,7 +86,7 @@ function Hero() {
             Open to international opportunities
           </Badge>
           <h1 className="font-display text-4xl font-extrabold leading-[1.05] tracking-tight md:text-6xl">
-            People First. <span className="text-primary">Commercially Minded.</span> Built for International Work.
+            People First. <span className="text-primary">Commercially Minded.</span>
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
             Customer-facing professional with a background in hospitality, brand activation, and marketing — open to roles across hospitality, sales, customer success, marketing, and business management in international markets.
@@ -145,7 +145,7 @@ function Section({ id, eyebrow, title, children }: { id?: string; eyebrow: strin
 
 function Profile() {
   return (
-    <Section id="about" eyebrow="About" title="A customer-focused professional building toward international work.">
+    <Section id="about" eyebrow="About" title="A customer-focused professional with a commercial mindset.">
       <div className="grid gap-8 md:grid-cols-3">
         <div className="md:col-span-2 space-y-4 text-lg leading-relaxed text-foreground/80">
           <p>
