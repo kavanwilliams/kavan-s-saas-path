@@ -30,7 +30,7 @@ export const Route = createRootRoute({
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Kavan Williams — People First. Commercially Minded." },
-      { name: "description", content: "Customer-facing professional with a background in hospitality, brand activation, and marketing — open to roles across hospitality, sales, customer success, marketing, and business management in international markets." },
+      { name: "description", content: "Customer-facing professional with a background in hospitality, brand activation, and marketing — open to roles across hospitality, sales, customer success, marketing, and business management." },
       { name: "author", content: "Kavan Williams" },
       { property: "og:title", content: "Kavan Williams — People First. Commercially Minded." },
       { property: "og:description", content: "Customer-facing professional with a background in hospitality, brand activation, and marketing — open to international roles across hospitality, sales, customer success, marketing, and operations." },
