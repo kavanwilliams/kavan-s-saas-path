@@ -89,7 +89,7 @@ function Hero() {
             People First. <span className="text-primary">Commercially Minded.</span>
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            Customer-facing professional with a background in hospitality, brand activation, and marketing — open to roles across hospitality, sales, customer success, marketing, and business management in international markets.
+            Customer-facing professional with a background in hospitality, brand activation, and marketing — open to roles across hospitality, sales, customer success, marketing, and business management.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild size="lg" className="rounded-full">
