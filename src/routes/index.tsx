@@ -155,7 +155,7 @@ function Profile() {
             I hold a BCom in Marketing and Business Management, and I'm currently adding CRM, Salesforce, and AI workflow skills to that foundation.
           </p>
           <p>
-            I'm pursuing an international career across multiple paths: hospitality and aviation, commercial and customer success roles, marketing and operations positions, and graduate or trainee programmes.
+            I'm pursuing an international career across multiple paths: hospitality, commercial and customer success roles, marketing and operations positions, and graduate or trainee programmes.
           </p>
           <p>
             I'm based in South Africa and open to relocation.
@@ -338,7 +338,6 @@ function Certifications() {
 
 function Direction() {
   const paths = [
-    { icon: Plane, label: "Hospitality & Aviation" },
     { icon: Briefcase, label: "Sales & Business Development" },
     { icon: Heart, label: "Customer Success" },
     { icon: TrendingUp, label: "Marketing Coordination" },
@@ -458,7 +457,7 @@ function Contact() {
           <div className="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-primary">Contact</div>
           <h2 className="font-display text-4xl font-bold tracking-tight md:text-5xl">Let's start a conversation.</h2>
           <p className="mx-auto mt-5 max-w-xl text-lg text-muted-foreground">
-            Open to hospitality, aviation, sales, customer success, marketing, operations, and graduate programmes — locally in South Africa or internationally.
+            Open to hospitality, sales, customer success, marketing, operations, and graduate programmes — locally in South Africa, internationally, or remote.
           </p>
         </div>
 
