@@ -83,7 +83,7 @@ function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
             </span>
-            Open to international opportunities
+            Open to international & remote opportunities
           </Badge>
           <h1 className="font-display text-4xl font-extrabold leading-[1.05] tracking-tight md:text-6xl">
             People First. <span className="text-primary">Commercially Minded.</span>
@@ -523,7 +523,7 @@ function Contact() {
 
         <div className="mt-12 text-center">
           <Badge variant="secondary" className="rounded-full px-4 py-2 text-sm">
-            <Award className="mr-2 h-4 w-4 text-primary" /> Open to international opportunities
+            <Award className="mr-2 h-4 w-4 text-primary" /> Open to international & remote opportunities
           </Badge>
         </div>
       </div>
